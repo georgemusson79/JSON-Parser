@@ -1,0 +1,5 @@
+package jsonparser;
+
+public enum Token {
+    LBRACE, RBRACE, COLON, COMMA, STRING, LSQUARE_BRACKET, RSQUARE_BRACKET, NUMBER, BOOL
+}
